@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="fstyle.css">
+</head>
+<body>
+    <div class="two">
+    <h2>STUDENT REGISTRATION</h2>
+    </div>
+    <form action="">
+        <div class="form">
+        <label for="name">Name: </label>
+        <div>
+            <input type="text" name="myName" id="name" required>
+        </div>
+        <label for="fname">Father's Name:</label>
+        <div>
+            <input type="text" name="father's Nmae" id="fname" required>
+        </div>
+        <label for="mname">Mother's Name:</label>
+        <div>
+            <input type="text" name="mother's name" id="mname" required>
+        </div>
+        <label for="roll">ROLL:</label>
+        <div>
+            <input type="text" name="myName" id="roll" required>
+        </div>
+        <label for="mail">E-Mail:</label> 
+        <div>
+            <input type="text" name="myEmail" id="mail" required>
+        </div>
+        <label for="DT">DOB:</label>
+        <div>
+            <input type="date" name="myDate" id="DT" required>
+        </div>
+        <label for="age">Age:</label>
+        <div>
+            <input type="number" name="myAge" id="age" required>
+        </div>
+        <label>Gender:</label>
+        <div>
+            <label for="a1">Male</label>
+            <input type="radio" name="myGender" id="a1">
+            <label for="a2">Female</label> 
+            <input type="radio" name="myGender" id="a2"> 
+            <label for="a3">Other</label>
+            <input type="radio" name="myGender" id="a3"> 
+        </div>
+        <label for="info">Write About Yourself:</label>
+        <div>
+            <textarea name="Information" id="info" cols="40" rows="15"></textarea>
+        </div>
+        <label for="education">Highest Education:</label>
+        <div>
+            <select name="myEducation" id="education" required>
+                <option value="Blank"></option>
+                <option value="10th">Secondary Education</option>
+                <option value="12th">Senior Secondary Education</option>
+                <option value="Graduate">Graduated</option>
+                <option value="1-9">Other</option>
+                <option value="Not educated">Never went to school</option>
+            </select>
+        </div>
+        <div>
+            <button type="reset">Reset</button>
+            <input type="submit" value="Submit Now">
+        </div>
+        </div>
+    </form>
+</body>
+</html>
